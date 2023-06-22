@@ -19,7 +19,7 @@ public class GetDate
 		
 	//	System.out.println(jUtils.generateDateInYYYY_MM_DD_Format());
 
-		System.out.println("Updating git.");
+		System.out.println("Updating Branch to branch.");
 
 	}
 }
