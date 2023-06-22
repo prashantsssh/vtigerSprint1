@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 import vtiger.genericUtility.JavaUtility;
 
-public class GetDate 
+public class GetSysDate 
 
 {
 	public static void main(String[] args) 
