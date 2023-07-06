@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 import vtiger.genericUtility.JavaUtility;
 
-public class GetDate 
+public class GetSysDate 
 
 {
 	public static void main(String[] args) 
@@ -19,7 +19,7 @@ public class GetDate
 		
 	//	System.out.println(jUtils.generateDateInYYYY_MM_DD_Format());
 
-		System.out.println("Updating Branch to branch.");
+		System.out.println("Again updating");
 
 	}
 }
