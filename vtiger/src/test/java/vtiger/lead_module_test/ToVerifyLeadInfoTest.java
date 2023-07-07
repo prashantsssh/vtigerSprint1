@@ -49,7 +49,6 @@ public class ToVerifyLeadInfoTest extends BaseClass
 		createLead.selectFromAssignToDropdown(leadAssignToDetails);
 		createLead.clickOnSaveButton();
 		System.out.println("The lead has been created.");
-		System.out.println("The lead has been created.");
 		
 		//Verifying the lead.
 		String actualLeadsLastName = leadInfo.verifyLeadsName(expectedleadLastName);
