@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--666847552\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--1373619256\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="vtiger.lead_module_test.ToVerifyLeadInfoTest" class="method navigator-link" hash-for-method="toCreateLeadAndToVerifyLeadInfoTest">toCreateLeadAndToVerifyLeadInfoTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="vtiger.produt_module_test.ToCreateProductTest" class="method navigator-link" hash-for-method="toCreateProductAndVerifyProductName">toCreateProductAndVerifyProductName</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="practice.MyPractice" class="method navigator-link" hash-for-method="toFetchFlightPriceFromMakeMyTrip">toFetchFlightPriceFromMakeMyTrip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,29 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">vtiger.produt_module_test.ToCreateProductTest</span>
+              <span class="class-name">practice.MyPractice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="toCreateProductAndVerifyProductName">
-                  </a> <!-- toCreateProductAndVerifyProductName -->
-                  <span class="method-name">toCreateProductAndVerifyProductName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">vtiger.lead_module_test.ToVerifyLeadInfoTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="toCreateLeadAndToVerifyLeadInfoTest">
-                  </a> <!-- toCreateLeadAndToVerifyLeadInfoTest -->
-                  <span class="method-name">toCreateLeadAndToVerifyLeadInfoTest</span>
+                  <a name="toFetchFlightPriceFromMakeMyTrip">
+                  </a> <!-- toFetchFlightPriceFromMakeMyTrip -->
+                  <span class="method-name">toFetchFlightPriceFromMakeMyTrip</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--666847552\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--1373619256\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -166,8 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;vtiger.produt_module_test.ToCreateProductTest&quot;/&gt;
-      &lt;class name=&quot;vtiger.lead_module_test.ToVerifyLeadInfoTest&quot;/&gt;
+      &lt;class name=&quot;practice.MyPractice&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;toFetchFlightPriceFromMakeMyTrip&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- practice.MyPractice --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -181,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,15 +190,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'toCreateProductAndVerifyProductName')
-data.setCell(0, 2, 'vtiger.produt_module_test.ToCreateProductTest')
-data.setCell(0, 3, 36413);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'toCreateLeadAndToVerifyLeadInfoTest')
-data.setCell(1, 2, 'vtiger.lead_module_test.ToVerifyLeadInfoTest')
-data.setCell(1, 3, 22488);
+data.setCell(0, 1, 'toFetchFlightPriceFromMakeMyTrip')
+data.setCell(0, 2, 'practice.MyPractice')
+data.setCell(0, 3, 58018);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -239,11 +218,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">vtiger.lead_module_test.ToVerifyLeadInfoTest</span>
+              <span class="ignored-class-name">practice.MyPractice</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">asconfig</span>
+                <span class="ignored-method-name">testMakeMyTripCalendar</span>
                 <br/>
-                <span class="ignored-method-name">bsconfig</span>
+                <span class="ignored-method-name">testSpiceJetCalendar</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -255,61 +234,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">vtiger.produt_module_test.ToCreateProductTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">bsconfig</span>
+              <div class="chronological-class-name">practice.MyPractice</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">toFetchFlightPriceFromMakeMyTrip</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">bcconfig</span>
-                <span class="method-start">16167 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">bmconfig</span>
-                <span class="method-start">41295 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">toCreateProductAndVerifyProductName</span>
-                <span class="method-start">50243 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amconfig</span>
-                <span class="method-start">86667 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">acconfig</span>
-                <span class="method-start">88895 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">vtiger.lead_module_test.ToVerifyLeadInfoTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">bcconfig</span>
-                <span class="method-start">89462 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">bmconfig</span>
-                <span class="method-start">94089 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">toCreateLeadAndToVerifyLeadInfoTest</span>
-                <span class="method-start">102123 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amconfig</span>
-                <span class="method-start">124614 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">acconfig</span>
-                <span class="method-start">127116 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">vtiger.produt_module_test.ToCreateProductTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">asconfig</span>
-                <span class="method-start">128814 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
