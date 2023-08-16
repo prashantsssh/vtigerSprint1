@@ -15,10 +15,10 @@ public class DemoTwo
 				if(st.charAt(j)==st.charAt(i))
 				{
 					count++;
-				
+					
 				}
 			}
-			System.out.println("The count of "+ st.charAt(i)+" is "+count);
+			System.out.println("The count of  "+ st.charAt(i)+" is "+count);
 		}
 	}
 }
