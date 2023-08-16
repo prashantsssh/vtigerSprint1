@@ -18,7 +18,7 @@ public class DemoTwo
 					
 				}
 			}
-			System.out.println("The count of "+ st.charAt(i)+" is "+count);
+			System.out.println("The count of  "+  st.charAt(i)+" is "+count);
 		}
 	}
 }
