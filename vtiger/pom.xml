@@ -3,6 +3,10 @@
   <groupId>com.crm.vtiger</groupId>
   <artifactId>vtiger</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <mainClass>com.enterprise.mainPacket.MainApp</mainClass>
+</properties>
   <build>
   <pluginManagement>
       <plugins>
